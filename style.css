@@ -1,0 +1,167 @@
+body {
+  font-family: Serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 174, 0);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 230, 0);
+}
+
+#appleNYC {
+  padding: 0em;
+  margin: 270px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 80px;
+}
+
+#title {
+  background-image: url("pics/street3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 0px;
+  margin: 0em;
+  font-size: 5em;
+  text-shadow: 3px 3px #000000;
+  padding: 5rem;
+}
+
+#text1 {
+  -webkit-text-stroke: 0.4px rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  font-size: 200%;
+  padding: 1.5em;
+  margin: 5rem;
+}
+
+/* Pattern styles */
+.container {
+  display: flex;
+}
+
+.left-half {
+  background-color: #ffffff;
+  flex: 1;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.right-half {
+  background-color: #ffffff;
+  flex: 1.5;
+  padding: 5rem;
+  margin: 1rem;
+  font-size: 120%;
+}
+
+.left-half2 {
+  background-color: #ffffff;
+  flex: 1.5;
+  padding: 5rem;
+  margin: 1rem;
+  font-size: 120%;
+}
+
+.right-half2 {
+  background-color: #ffffff;
+  flex: 1;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#title2 {
+  background-image: url("pics/street1.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-shadow: 3.5px 3.5px #000000;
+  font-size: 1.5em;
+  padding: 1rem;
+  margin: 5rem;
+}
+
+#title3 {
+  background-image: url("pics/back2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-shadow: 3.5px 3.5px #000000;
+  font-size: 1.5em;
+  padding: 1em;
+  margin: 5rem;
+}
+
+#babyChart {
+  margin: 5rem;
+  padding: 2rem;
+}
+
+#babyChart2 {
+  margin: 15rem;
+  padding: 0rem;
+}
+
+#title4 {
+  background-image: url("pics/back5.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-shadow: 3.5px 3.5px #000000;
+  font-size: 1.5em;
+  padding: 1em;
+  margin: 5rem;
+}
+
+#dogChart {
+  margin: 5rem;
+  padding: 2rem;
+}
+
+#dogChart1 {
+  margin: 15rem;
+  padding: 0rem;
+}
+
+#dogChart2 {
+  margin: 5rem;
+  padding: 5rem;
+}
+
+#Ending {
+  background-color: rgb(70, 70, 70);
+  color: rgb(255, 255, 255);
+  padding: 7rem;
+}
